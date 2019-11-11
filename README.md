@@ -95,3 +95,11 @@ docker exec spark-master bin/spark-submit \
     --master spark://spark-master:7077 \
     --class org.apache.spark.examples.SparkPi examples/jars/spark-examples_2.11-2.4.4.jar 1000
 ```
+
+## Docker
+
+Remove all unused containers:
+
+```bash
+docker container prune
+```
